@@ -6,14 +6,12 @@ public class DuWhile {
         int i ;
         i = scanner.nextInt();
         do{
-
-
-            if (i%3==0){
+            i--;
+            if (i%3!=0){
+                System.out.println(i);
+            }else{
                 continue;
             }
-            System.out.println(i);
-            i--;
-        }while (i>=0);
-
+        }while (i > 0);
     }
 }

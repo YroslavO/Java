@@ -10,6 +10,5 @@ public class Arrays {
         for(int i=0;i<numbers2.length;i++){
             System.out.println(numbers2[i]);
         }
-
     }
 }
