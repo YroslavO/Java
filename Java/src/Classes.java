@@ -10,8 +10,10 @@ public class Classes {
         person2.name = "Max";
         person2.age = 28;
         person2.speak();
-        int year1 = person2.calculate();
+        int year1 = person1.calculate();
         System.out.println("out "+year1);
+        int year2 = person2.calculate();
+        System.out.println("out "+year2);
     }
 }
 
@@ -21,6 +23,8 @@ class Person{
     int calculate(){
         int years = 65-age;
         return years;
+
+
 
     }
     void speak(){
