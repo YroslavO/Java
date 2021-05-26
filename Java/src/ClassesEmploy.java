@@ -19,7 +19,7 @@ public class ClassesEmploy {
         you.seveCustomerInfo();
 
     }
-    
+
 }
 class Customer{
 private int age;
