@@ -1,4 +1,8 @@
 package Forest;
 
-public class Squirell {
+public class Squirell extends Bear{
+    public void eating(){
+        System.out.println("Squirell is eating");
+    }
+
 }
