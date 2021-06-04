@@ -8,6 +8,10 @@ public class Tree {
         s1.eating();
         Flover rose = new Flover();
         rose.smail("Red");
+        int v1 = 6;
+        int v2 = 36;
+        System.out.println(++v2/v1);
+
 
     }
 }
