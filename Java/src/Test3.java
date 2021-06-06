@@ -8,6 +8,6 @@ public class Test3 {
 
 
         Cat cat = (Cat) animal;
-        cat.eat();
+
     }
 }

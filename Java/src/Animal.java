@@ -1,5 +1,16 @@
 public class Animal {
-    public void eat (){
-        System.out.println("i am eating");
+    private int id;
+    public Animal(){
+
+    }
+    public Animal(int id){
+        this.id = id;
+    }
+
+
+
+    public String toSting(){
+        return String.valueOf(id);
+
     }
 }
