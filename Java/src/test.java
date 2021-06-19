@@ -1,11 +1,11 @@
-import Forest.Squirell;
-import Forest.Tree;
-import java.util.*;
-
-
 public class Test {
     public static void main( String[] args ) {
-        Scanner scanner = new Scanner(System.in);
+        Electrocar electrocar = new Electrocar(1);
+        electrocar.start();
 
+        Electrocar.Battery battery = new Electrocar.Battery();
+        electrocar.test(battery);
     }
+
+
 }

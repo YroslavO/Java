@@ -1,18 +1,24 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class Test5 {
     public static void main( String[] args ) {
-        List<Animal> animalss = new ArrayList<>();
-        animalss.add(new Animal(1));
-        animalss.add(new Animal(2));
+       /* Animal4 animal1 = new Animal4(1);
+        Animal4 animal2 = new Animal4(1);
+        System.out.println(animal1.equals(animal2)); */
 
-        test(animalss);
-
+        String a = "hello";
+        String b = "hello123".substring(0,5);
+        System.out.println(b);
+        System.out.println(a);
+        System.out.println(a == b);
     }
-    public   static void test(List<Animal> list){
-        for(Animal animal : list){
-            System.out.println(animal);
-        }
+}
+class Animal4 {
+    private int id;
+    public Animal4(int id) {
+        this.id = id;
+    }
+    public boolean equals(Object obj){
+        Animal4 otherAnimal = (Animal4) obj;
+        return this.id == otherAnimal.id;
+
     }
 }
